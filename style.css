@@ -1,0 +1,45 @@
+#Clock{
+    /*background-image: '—Pngtree—roman clock number no hands_8622080.png';*/
+    background-image: url('clock.png');
+    background-size: 100%;
+    height: 600px;
+    width: 600px;
+    margin: auto;
+border: 2px dotted red ;
+
+}
+
+#Hour, #Minute, #Second{
+
+    position: absolute;
+    background-color: aquamarine;
+    transform-origin: bottom;
+    border-radius: 10px;
+}
+
+#Hour{
+    left: 50%;
+    height: 12%;
+    width: 7px;
+    top: 37%;
+    background-color: brown;
+}
+
+
+#Minute{
+    left: 50%;
+    height: 20%;
+    width: 7px;
+    top: 29%;
+    opacity: 1;
+    background-color: aqua;
+}
+
+#Second{
+    left: 50%;
+    height: 25%;
+    width: 7px;
+    top: 23.5%;
+    opacity: 1;
+    background-color: black;
+}
